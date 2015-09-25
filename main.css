@@ -36,7 +36,8 @@ h2 span {
    padding: 25px;
 }
 
-table {
+
+/*table {
   padding: 30px;
 }
 table, th, td {
@@ -54,9 +55,43 @@ table th {
 table td {
   background-color: #F7F7F7
 
-}
+}*/
 
 .twocolumns {
+
+}
+
+div {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  padding: 30px;
+  position: center;
+}
+div main {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 170px;
+
+
+}
+
+div li {
+  background-color: #f7f7f7;
+  border: 1px solid black;
+  text-align: center;
+}
+div main span {
+  font-size: 60px;
+  text-align: center;
+
+}
+
+div button {
+  border: 1px solid black;
 
 }
 
