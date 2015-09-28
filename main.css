@@ -37,26 +37,6 @@ h2 span {
 }
 
 
-/*table {
-  padding: 30px;
-}
-table, th, td {
-    border: 1px solid black;
-}
-
-table th {
-  background-color: green;
-  height: 150px;
-  color: white;
-}
-table th {
-
-}
-table td {
-  background-color: #F7F7F7
-
-}*/
-
 .twocolumns {
 
 }
@@ -97,6 +77,7 @@ div button {
 
 h5 {
   font-size: 20px;
+  width: 31%;
 }
 .left-col {
   float: left;
