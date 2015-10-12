@@ -89,16 +89,17 @@ div li {
   background-color: #f7f7f7;
   text-align: center;
 }
+
 div main span {
   font-size: 60px;
   text-align: center;
-
 }
 
 div button {
   border: 1px solid black;
   border-radius: 10px;
-
+  height: 30px;
+  width: 60px;
 }
 
 h5 {
@@ -107,11 +108,13 @@ h5 {
 }
 
 .getStarted {
+  width: 300px;
   margin-left: 200px;
   margin-right: 50px;
   text-align: center;
 }
 .pay {
+  width: 300px;
   display: inline-block;
   margin-left: 50px;
   margin-right: 200px;
@@ -119,21 +122,23 @@ h5 {
 }
 
 .twentyfourseven {
-  margin-left: 50px;
-  margin-right: 200px;
+  width: 300px;
+  margin-left: 200px;
+  margin-right: 50px;
   text-align: center;
 }
 .cancel {
+  width: 300px;
   margin-left: 50px;
   margin-right: 200px;
   text-align: center;
 }
-/*.right-col {
-  margin-left: 50px;
-  margin-right: 200px;
-}*/
 
+.infoTop {
+}
 
+.infoBottom {
+}
 
 footer {
   text-align: center;
