@@ -36,11 +36,6 @@ h2 span {
    padding: 25px;
 }
 
-
-.twocolumns {
-
-}
-
 div {
   display: inline-block;
   width: 200px;
@@ -51,26 +46,47 @@ div {
 .box {
   margin-left: 200px;
   margin-right: 10px;
+  text-align: center;
+  background-color: white;
 }
+.box2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
 
 .box3 {
   margin-left: 10px;
   margin-right: 200px;
+  text-align: center;
 }
 
 div main {
-  background-color: green;
+/*  background-color: green;*/  
   color: white;
   padding: 10px;
   text-align: center;
   width: 170px;
-
-
 }
 
+div.boxheader {
+  background-color: green;
+  height: 180px;
+}
+div.box2header {
+  background-color: blue;
+  height: 180px;
+}
+div.box3header {
+  background-color: black;
+  height: 180px;
+}
+
+
+/*this is the box around the center 3 columns*/
 div li {
   background-color: #f7f7f7;
-  border: 1px solid black;
   text-align: center;
 }
 div main span {
@@ -81,6 +97,7 @@ div main span {
 
 div button {
   border: 1px solid black;
+  border-radius: 10px;
 
 }
 
@@ -89,29 +106,34 @@ h5 {
   width: 31%;
 }
 
-.toptwocolumns {
+.getStarted {
   margin-left: 200px;
   margin-right: 50px;
+  text-align: center;
+}
+.pay {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 200px;
+  text-align: center;
 }
 
-.bottomtwocolumns {
+.twentyfourseven {
   margin-left: 50px;
   margin-right: 200px;
+  text-align: center;
 }
-.left-col {
+.cancel {
   margin-left: 50px;
   margin-right: 200px;
+  text-align: center;
 }
 /*.right-col {
   margin-left: 50px;
   margin-right: 200px;
 }*/
 
-.topleftpara {
-  display: inline-block;
-  margin-left: 50px;
-  margin-right: 200px;
-}
+
 
 footer {
   text-align: center;
